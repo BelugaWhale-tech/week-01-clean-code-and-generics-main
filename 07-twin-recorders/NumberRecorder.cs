@@ -7,5 +7,6 @@ public class NumberRecorder
     public void Clear()
     {
         // TODO: Tøm denne beholderen.
+        _items.Clear();
     }
 }
