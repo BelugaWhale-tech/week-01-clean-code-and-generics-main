@@ -5,3 +5,9 @@ numbers.Add(7);
 Console.WriteLine(text.Contains("Orbit"));
 Console.WriteLine(numbers.Contains(7));
 // TODO: Kall Clear på begge og kontroller tilstanden.
+text.Clear();
+numbers.Clear();
+Console.WriteLine(text.Count);
+Console.WriteLine(numbers.Count);
+Console.WriteLine(text.Contains("Orbit"));
+Console.WriteLine(numbers.Contains(7));

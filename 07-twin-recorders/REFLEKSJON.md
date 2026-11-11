@@ -7,7 +7,9 @@
 ## Testlogg
 
 | Inndata eller handling | Forventet resultat | Faktisk resultat |
-|---|---|---|
+|text = new textRecorder|oppretter ny liste|oppretter ny liste|
+|numbers=new numberRecorder| oppretter ny liste| oppretter ny liste|
+
 | | | |
 
 ## Forklaring
