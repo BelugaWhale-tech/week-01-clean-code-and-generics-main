@@ -4,5 +4,7 @@ Locker<string> textLocker = new Locker<string>("Beacon");
 Locker<int> intLocker = new Locker<int>(42);
 Console.WriteLine(textLocker.Read());
 Console.WriteLine(intLocker.Read());
-textLocker.Replace("Beacon, Relay");
+textLocker.Replace("Relay");
 intLocker.Replace(99);
+Console.WriteLine(textLocker.Read());
+Console.WriteLine(intLocker.Read());
