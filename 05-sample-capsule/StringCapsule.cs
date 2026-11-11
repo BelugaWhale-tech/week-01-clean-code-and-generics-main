@@ -1,20 +1,26 @@
+using System.Net.Mime;
+
 public class StringCapsule
 {
     private string _content = "";
 
     public StringCapsule(string content)
     {
-        // TODO: Oppbevar argumentet i feltet.
+        //argumenter oppbevares i feltet
+        _content = content;
     }
 
     public string Read()
     {
-        // TODO: Returner objektets innhold. Dette er en midlertidig returverdi.
-        return "";
+        // objektets innhold returneres
+        
+        return _content;
     }
 
     public void Replace(string content)
     {
-        // TODO: Oppdater feltet.
+        // feltet oppdateres..
+        _content = content;
+        return ;
     }
 }
