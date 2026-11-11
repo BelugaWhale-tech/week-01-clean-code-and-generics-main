@@ -1,4 +1,4 @@
-public class Recorder
+public class Recorder<T>()
 {
     private List<string> _items = new List<string>();
     public int Count { get { return _items.Count; } }

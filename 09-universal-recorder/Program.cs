@@ -1,4 +1,4 @@
-Recorder recorder = new Recorder();
+Recorder<string> recorder = new Recorder<string>();
 recorder.Add("Orbit");
 Console.WriteLine(recorder.Count);
 Console.WriteLine(recorder.Contains("Orbit"));
