@@ -6,3 +6,4 @@ Console.WriteLine(log.Count);
 log.Clear();
 Console.WriteLine(log.Count);
 // TODO: Legg til de resterende testene.
+
