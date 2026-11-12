@@ -2,7 +2,7 @@
 
 ## Plan før koding
 
-- 
+- lag generisk PrintStrings metode, gi nytt navn som beskriver bedre at dette er en generisk metode. 
 
 ## Testlogg
 
