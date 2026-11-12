@@ -10,8 +10,8 @@ Gjøre recording class generic, oppdatere body deretter.
 |ny recorder<int>        |count 0, contains(7) false|count 0, contains (7) false|
 |leggg til 7 to ganger   |count 2, contains (7) true |count 2, contains (7) true |
 |clear                   |count 0, contains (7) false|count 0, contains (7) false|
-Recorder<string>"Orbit"  |Contains("Orbit") true, Contains("orbit") false| Contains("Orbit") true, Contains("orbit") false|
-To 'Containers"          |Endring i en påvirker ikke den andre| Endring i intRecorder() påvirker ikke innholdet i recorder()|
+Recorder<string> med "Orbit"  |Contains("Orbit") true, Contains("orbit") false| Contains("Orbit") true, Contains("orbit") false|
+To beholdere          |Endring i en påvirker ikke den andre| Endring i intRecorder() påvirker ikke innholdet i recorder()|
 
 ## Forklaring
 
