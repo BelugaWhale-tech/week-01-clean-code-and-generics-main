@@ -7,7 +7,13 @@
 ## Testlogg
 
 | Inndata eller handling | Forventet resultat | Faktisk resultat |
-|---|---|---|
+|list<int> numbers= new list<int>()|lager ny liste med int parameter|lager ny liste med int parameter|
+|list<int>emptyNumbers = new list<int>()|lager ny liste med int|lager ny liste med int|
+|SignalPrinter.PrintItems<string>(messages);|forventer at innholdet i messages skrives ut| innholdet i messages skrives ut|
+|numbers.Add(44)         |44 legges til i numbers listen.|44 blir lagt til i numbers listen|
+SignalPrinter.PrintItems(numbers);| skriver ut innholdet i numbers listen| innholdet skrives ut|
+SignalPrinter.PrintItems(emptyNumbers);|forventes at emptyNumbers skrives ut, ingen innhold.| emptyNumbers skrives ut, ingen utskrift da listen er tom.
+
 | | | |
 
 ## Forklaring
