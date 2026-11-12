@@ -27,4 +27,4 @@ Mitt svar:Her er T deklarert i metoden, ikke klassen. det skiller seg vel ut ved
 her endret jeg type parameteret i Print metoden. 
 
 ## Hva trenger jeg mer øving på?
-
+samme som oppgave 9 tenker jeg 
