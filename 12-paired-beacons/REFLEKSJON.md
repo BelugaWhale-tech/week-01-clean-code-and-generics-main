@@ -1,7 +1,7 @@
 # Refleksjon — Paired Beacons
 
 ## Plan før koding
-
+planlegg dataen, konstruktøren og de offentlige medlemmene Pair.cs og PairDisplay.cs
 - 
 
 ## Testlogg
