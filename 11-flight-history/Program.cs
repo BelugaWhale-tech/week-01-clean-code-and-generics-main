@@ -7,3 +7,4 @@ Console.WriteLine(snapshot.Count);
 snapshot.Clear();
 Console.WriteLine(history.Count);
 // TODO: Legg til resten av testene, også med int.
+Console.WriteLine(snapshot.Count);
