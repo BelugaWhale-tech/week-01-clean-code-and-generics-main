@@ -16,10 +16,13 @@ verdiene gies når paret opprettes og skal ikke kunne endres utenifra etterpå
 |---|---|---|
 |North, South            |first er North, Second er South. begge skrives ut. |PairDisplay.Showpair(beaconI); skriver begge |
 |12, 24.                 | first er 12, second er 24. begge skrives ut.|PairDisplay.Showpair(beaconII); skriver ut begge.|
+|to ny beacon objekter med navn "A" og "B" lagt i beaconPair| console.writeline(beaconpair.first.name + beaconpair.second.name); skriver ut navnet på begge objektene.| skriver ut "A" og "B"|
+
 
 ## Forklaring
 
 Hvorfor trenger ikke Pair<T> vite hvilke egenskaper Beacon har? Hva gir generics her som to separate klasser ikke gir?
+
 
 Mitt svar:
 
