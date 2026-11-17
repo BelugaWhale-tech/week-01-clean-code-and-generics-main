@@ -11,4 +11,8 @@ PairDisplay.ShowPair(beaconII);
 Beacon beaconA = new Beacon("A");
 Beacon beaconB = new Beacon("B");
 Pair<Beacon> beaconPair = new Pair<Beacon>(beaconA,beaconB);
+Beacon beaconC = new Beacon("C");
+Beacon beaconD = new Beacon("D");
+Pair<Beacon> beaconPairII = new Pair<Beacon> (beaconC, beaconD);
 Console.WriteLine(beaconPair.First.Name + " " + beaconPair.Second.Name);
+Console.WriteLine(beaconPairII.First.Name + " " + beaconPairII.First.Name);
