@@ -1,9 +1,9 @@
 
 class PairDisplay
 {
-    ShowPair()
+    public static void ShowPair<T>(Pair<T> tPair)
     {
-       
-       return;
+        Console.WriteLine(tPair.First);
+        Console.WriteLine(tPair.Second);
     }
 }

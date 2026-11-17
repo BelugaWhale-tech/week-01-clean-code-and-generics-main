@@ -1,11 +1,11 @@
 
 
-class Pair<TPair>
+class Pair<T>
 {
-   public TPair First {get;}
-   public TPair Second {get;}
+   public T First {get;}
+   public T Second {get;}
 
-   public Pair(TPair first, TPair second)
+   public Pair(T first, T second)
     {
         First = first;
         Second = second;
