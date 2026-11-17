@@ -14,7 +14,8 @@ verdiene gies når paret opprettes og skal ikke kunne endres utenifra etterpå
 
 | Inndata eller handling | Forventet resultat | Faktisk resultat |
 |---|---|---|
-| | | |
+|North, South            |first er North, Second er South. begge skrives ut. |PairDisplay.Showpair(beaconI); skriver begge |
+|12, 24.                 | first er 12, second er 24. begge skrives ut.|PairDisplay.Showpair(beaconII); skriver ut begge.|
 
 ## Forklaring
 
