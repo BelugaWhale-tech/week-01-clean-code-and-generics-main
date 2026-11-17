@@ -17,4 +17,3 @@ Pair<Beacon> beaconPairII = new Pair<Beacon> (beaconC, beaconD);
 Console.WriteLine(beaconPair.First.Name + " " + beaconPair.Second.Name);
 Console.WriteLine(beaconPairII.First.Name + " " + beaconPairII.Second.Name);
 
-beaconI.First = "East";
